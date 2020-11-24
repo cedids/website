@@ -99,6 +99,8 @@ main {
 
     background-color: #94C9E9;
     color: black;
+    align-items: center;
+    justify-content: center;
 }
 
 div.content {
@@ -106,11 +108,11 @@ div.content {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    margin: 2%;
+    margin: 0px;
     border: 2px ;
     border: 2px solid #3c9cd7;
-    padding: 2%;
-
+    padding: 20px;
+    max-width: 1000px;
 }
 
 #boxmodell {
