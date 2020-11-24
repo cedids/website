@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header Start */
+
+header {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+    flex-grow: 9;
+    background-color: black;
+    color: white;
+}
+
+#cssheader {
+    background-color: #3c9cd7;
+    color: black;
+}
+
+#htmlheader {
+    background-color: #ee652a;
+    color: black;
+}
+
+
+.logo {
+    height: 100%;
+    width: 20%;
+}
+
+.htmllogo {
+    height: 100%;
+    width: 8%;
+    margin: 1% 3% 1% 3%;
+}
+
+.csslogo {
+    height: 100%;
+    width: 13%;
+}
+
+header li {
+    list-style-type: none;
+}
+
+#title p {
+    margin: 0%;
+}
+
+#title {
+    font-weight: bolder;
+}
+
+#title h1 {
+    font-weight: 1000;
+    font-size: 301%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+    padding: 0% 5% 0% 5%;
+}
+
+#home {
+    text-decoration: none;
+    color: white;
+}
+
+#navbarDropdownMenuLink {
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+/* Header Ende */
+
+/* Main Start */
+
+main {
+    flex-grow: 90;
+    background-color: #737373;
+    color: white;
+}
+
+#htmlmain {
+    background-color: #F6AA8A;
+    color: black;
+}
+
+#cssmain {
+    background-color: #94C9E9;
+    color: black;
+}
+
+
+/* Main Ende */
+
+/* Footer Start */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+footer p {
+    margin: 0%;
+}
+
+#htmlfooter {
+    background-color: #ee652a;
+    color: black;
+}
+
+#cssfooter {
+    background-color: #3c9cd7;
+    color: black;
+}
+
+
+/* Footer Ende */
