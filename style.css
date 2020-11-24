@@ -36,7 +36,6 @@ header {
 
 
 .logo {
-    height: 100%;
     width: 20%;
 }
 
@@ -118,6 +117,7 @@ footer {
     background-color: black;
     color: white;
     align-items: center;
+    padding: 1% 0%;
 }
 
 footer p {
