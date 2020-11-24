@@ -95,13 +95,30 @@ main {
     padding: 1%;
 }
 
-#htmlmain {
-    background-color: #F6AA8A;
+#cssmain {
+
+    background-color: #94C9E9;
     color: black;
 }
 
-#cssmain {
-    background-color: #94C9E9;
+div.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 2%;
+    border: 2px ;
+    border: 2px solid #3c9cd7;
+    padding: 2%;
+
+}
+
+#boxmodell {
+    margin-left: 2%;
+}
+
+#htmlmain {
+    background-color: #F6AA8A;
     color: black;
 }
 
