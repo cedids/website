@@ -93,6 +93,7 @@ main {
     flex-grow: 90;
     background-color: #737373;
     color: white;
+    padding: 1%;
 }
 
 #htmlmain {
@@ -105,6 +106,10 @@ main {
     color: black;
 }
 
+div.card {
+    margin-left: 0%;
+    margin-right: 0%;
+}
 
 /* Main Ende */
 
@@ -122,6 +127,15 @@ footer {
 
 footer p {
     margin: 0%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
 }
 
 #htmlfooter {
