@@ -34,7 +34,6 @@ header {
     color: black;
 }
 
-
 .logo {
     width: 20%;
 }
@@ -63,7 +62,7 @@ header li {
 }
 
 #title h1 {
-    font-weight: 1000;
+    font-weight: 900;
     font-size: 301%;
 }
 
@@ -140,13 +139,12 @@ footer a:hover {
 
 #htmlfooter {
     background-color: #ee652a;
-    color: black;
+    color: white;
 }
 
 #cssfooter {
     background-color: #3c9cd7;
-    color: black;
+    color: white;
 }
-
 
 /* Footer Ende */
