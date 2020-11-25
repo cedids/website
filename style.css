@@ -78,11 +78,16 @@ nav {
     color: white;
 }
 
-#navbarDropdownMenuLink {
+.navbarDropdownMenuLink {
     color: white;
     font-weight: bolder;
     font-size: 150%;
 }
+
+.navbarDropdownMenuLink:hover {
+    color: white;
+}
+
 
 /* Header Ende */
 
